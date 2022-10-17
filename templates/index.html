@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patricio Rubio</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+
+    <!-- Custom Font Intro -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">  
+
+    <!-- JQuery -->    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand nombre" href="#">Carpinter&iacute;a Patricio Rubio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Galer&iacute;a</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0" tabindex="0">
+        <!--Sección Inicio-->
+        <div id="inicio" class="container-fluid text-center">
+            <h2>Carpintería y Construcción en general.</h2>
+            <br>
+            <div class="container">
+                <p class="intro">Soy Patricio Rubio, trabajador independiente desde los años 80.</p>
+                <p class="intro">Construyo, mi especialidad es la carpintería en general (revestimiento de muros,
+                puertas, techumbres y tabiques), con finas terminaciones,
+                tanto en madera como en carpintería plana (vitrinas, muebles islas, cenefas,
+                closets y muebles de cocina).</p>
+                <p class="intro">He remodelado casas y departamentos, locales comerciales,
+                casas de campo y playa (autosustentables),
+                con recuperación de aguas e instalación de termopaneles.</p>
+                <p class="intro">Se realizan trabajos dentro y fuera de Santiago.</p>
+            </div>
+        </div>
+        <!--Sección Galería-->
+        <div id="galeria" class="container-fluid">
+            <h1>Galer&iacute;a</h1>
+            <div class="row text-center">
+                <div id="carouselExampleFade" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="fotogal" src="static/images/muestras_trabajo1.webp" class="d-block w-100" alt="uno">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo2.webp" class="d-block w-100" alt="dos">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo3.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo4.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo5.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo106.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo110.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo111.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo112.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo114.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo115.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo116.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo118.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo119.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo120.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo123.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo125.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo127.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo128.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo129.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo6.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo7.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo8.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo9.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo16.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo18.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo20.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo22.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo23.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo26.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo33.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo34.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo35.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo40.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo42.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo56.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo62.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo63.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo68.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo70.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo73.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo75.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo76.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo82.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo83.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo84.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo85.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo89.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo93.webp" class="d-block w-100" alt="tres">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="fotogal" src="static/images/muestras_trabajo113.webp" class="d-block w-100" alt="tres">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </a>
+                  </div>
+            </div>
+        </div>
+        <!--Sección Contacto-->
+        <div id="contacto" class="container-fluid">
+            <div class="row text-center">
+                <h1>Contacto</h1>
+                <div>
+                    <img class="imagen" src="static/images/gps.png" alt="mapa">
+                    <p class="info"><i><b>Direcci&oacute;n :</b> Catorce Poniente 8120, La Granja, Santiago, Chile.</i></p>
+                </div>
+                <div >
+                    <img class="imagen" src="static/images/fono.png" alt="fono">
+                    <p class="info"><i><b>Tel&eacute;fono :</b> +56225268664.</i></p>
+                </div>
+                <div>
+                    <img class="imagen" src="static/images/wsp.png" alt="wsp">
+                    <p class="info"><i><b>Whatsapp :</b> +56998062375.</i></p>
+                </div>
+                <div>
+                    <img class="imagen" src="static/images/email.png" alt="wsp">
+                    <p class="info"><i><b>Email :</b> carpinteria_prubio@hotmail.com</i></p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <script>
+        $("#navbarNav").on('show.bs.collapse', function () {
+          $('a.nav-link').click(function(){
+            $("#navbarNav").collapse('hide');
+          });
+        });
+    </script>
+</body>
+
+</html>

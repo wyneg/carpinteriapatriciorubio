@@ -1,0 +1,19 @@
+body { position: relative; }
+#inicio {padding-top:90px;height:800px;color: rgb(0, 0, 0); background-color: #f8ffbd;}
+#galeria {padding-top:75px;height:800px;color: #fff; background-color: #1e328b; background: #141E30;
+background: -webkit-linear-gradient(to right, #243B55, #141E30); background: linear-gradient(to right, #243B55, #141E30);}
+#contacto {padding-top:200px;height:800px;color: #fff; background: #3C3B3F; background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
+background: linear-gradient(to right, #605C3C, #3C3B3F);}
+.fotogal { width: auto; height: 500px;}
+.carousel img { margin: auto; }
+.imagen {display: inline-block; padding-right: 5px;}
+.info {display: inline-block;}
+.intro {text-align: justify; font-family: 'Raleway', sans-serif; font-size: 1.5em;}
+
+@media only screen and (max-width: 500px) {
+    .nombre { font-size: 85%;}
+    .intro {font-size: 1.0em;}
+    .fotogal { width: auto; height: 350px;}
+    #contacto {padding-top:125px;}
+
+}
